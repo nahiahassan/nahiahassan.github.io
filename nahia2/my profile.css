@@ -1,0 +1,74 @@
+  <style>
+/*general body styling*/
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(94, 182, 245);
+}
+/*header navigation styling*/
+header{
+    background-color: rgb(151, 168, 168);
+    padding: 10px;
+}
+header a{
+    color: rgb(19, 20, 20);
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+/*main container*/
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background: #727171;
+    padding: 20px;
+    border-radius: 8px;
+}
+/*section headings*/
+h2{
+    color: rgb(14, 90, 65);
+    border-bottom: 2px solid#837c7c;
+    padding-bottom: 5px;
+}
+/*personal info styling for education background*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table,th,td{
+    border: #fff;
+}
+th,td{
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: beige;
+}
+/*list styling for skills and projects*/
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    background: none;
+    margin: 5px 0;
+    padding: 8px;
+    border-left: 3px solid#aad3ba;
+}
+/*responsive design*/
+@media(max-width:768px){
+    .container{
+        width: 95%;
+    }
+}
+
+
+
+
+    </style>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahia Juma | Portfolio</title>
+    <link rel="stylesheet" href="business.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Portfolio-specific adjustments inside business.css wrapper */
+        .profile-container {
+            text-align: center;
+            padding-top: 120px;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 1.5rem;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .skills-list {
+            list-style: none;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        .skills-list li {
+            display: inline-block;
+            background: #f5f2eb;
+            padding: 0.5rem 1.5rem;
+            margin: 0.5rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        table {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            border-collapse: collapse;
+            background: var(--bg-card);
+        }
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background-color: #f5f2eb;
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Nahia <span>Juma</span></div>
+        <nav>
+            <ul>
+                <li><a href="Index.html#about">About Portfolio</a></li>
+                <li><a href="Index.html#education">Education</a></li>
+                <li><a href="Index.html#skills">Skills</a></li>
+                <li><a href="Index.html#contact">Contact Portfolio</a></li>
+                <li><a href="MY BUSINESS.html">My Business</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container profile-container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <img src="Snapchat-1983507647[1].jpg" alt="Nahia Juma" class="profile-img">
+                <h1 style="font-size: 3rem; color: var(--text-dark);">Nahia Juma</h1>
+                <p class="subtitle" style="font-size: 1.2rem; color: var(--accent-color); letter-spacing: 2px; margin-bottom: 1rem;">ASPIRING SOFTWARE DEVELOPER</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank">FB</a>
+                    <a href="https://twitter.com" target="_blank">TW</a>
+                    <a href="https://tiktok.com" target="_blank">TK</a>
+                    <a href="https://instagram.com" target="_blank">IG</a>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #e0e0e0; margin: 4rem 0;">
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I am a motivated and detail-oriented aspiring software developer with a strong foundation in programming and problem-solving. Passionate about building user-friendly applications and continuously learning new technologies. Skilled in developing small-scale applications and eager to contribute to real-world software solutions while growing in a dynamic tech environment.</p>
+            
+            <h3 style="margin-top: 2.5rem; text-align: center;">Career Objectives</h3>
+            <p style="margin-top: 1rem;">To build a successful career in software development by gaining hands-on experience, contributing to impactful projects, and continuously improving my technical and problem-solving skills in a collaborative environment.</p>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #e0e0e0; margin: 4rem 0;">
+
+        <section id="education">
+            <h2>Education Background</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Years</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mbale SS</td>
+                        <td>2024 - 2025</td>
+                        <td>A-Level</td>
+                    </tr>
+                    <tr>
+                        <td>Mbale SS</td>
+                        <td>2019 - 2023</td>
+                        <td>O-Level</td>
+                    </tr>
+                    <tr>
+                        <td>Hadassah Primary School</td>
+                        <td>2011 - 2018</td>
+                        <td>Primary</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #e0e0e0; margin: 4rem 0;">
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>Programming Languages</li>
+                <li>Problem Solving</li>
+                <li>Debugging & Testing</li>
+                <li>Web Design (HTML/CSS)</li>
+            </ul>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #e0e0e0; margin: 4rem 0;">
+
+        <section id="contact" class="contact">
+            <div class="contact-box">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nahia Juma. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
